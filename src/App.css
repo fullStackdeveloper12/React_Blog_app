@@ -9,6 +9,10 @@ body {
   background-color: #070b0f;
   color: white;
 }
+#user_img {
+  height: 100px;
+  border-radius: 50%;
+}
 /*btn*/
 .cta-btn {
   background-color: green;
@@ -310,6 +314,14 @@ input[type="submit"]:hover {
   }
   .cta-img {
     width: 100%;
+  }
+  #user_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  #para {
+    margin: 10px 0;
   }
 }
 /*AddBlogs*/

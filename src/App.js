@@ -3,7 +3,6 @@ import Login from "./Components/Login";
 import AddBlogs from "./Components/AddBlogs";
 import Blogs from "./Components/Blogs";
 import SingleBlog from "./Components/SingleBlog";
-import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 

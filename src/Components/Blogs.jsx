@@ -62,6 +62,8 @@ const Blogs = () => {
         return (
           <div className="blog-container" key={blog.id}>
             <div className="card">
+            <img src={auth.currentUser.photoURL} alt={auth.currentUser.displayName} id="user_img"/>
+            <p id="para">{auth.currentUser.displayName}</p>
               <div className="img-card">
                 <img src={blog.url} alt={blog.title} />
               </div>
