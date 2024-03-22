@@ -23,7 +23,7 @@ const Blogs = () => {
       })
     }
     getData();
-  }, []);
+  }, [callRef]); 
 
   const deleteblog = async (id) => {
     const dataRef = doc(db, "blog", id);

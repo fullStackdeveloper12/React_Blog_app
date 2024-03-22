@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from "react-router-dom";
 import { db } from "../Firebase";
-import Navbar from "./Navbar"
+import Navbar from "./Navbar";
 import Footer from './Footer';
 import { getDoc, doc } from "firebase/firestore";
 
@@ -23,9 +23,9 @@ const SingleBlog = () => {
       } catch (error) {
         console.log("Error fetching document:", error);
       }
-    }
+    };
     singleFetch();
-  }, [id])
+  }, [singleDataRef]); 
 
   return (
     <>
